@@ -1,0 +1,42 @@
+.custom-player{
+    width:100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 1.5rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: rgba(14, 2, 21, 0.5);
+    
+}
+
+.image-player{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.duration-range{
+    filter:hue-rotate(25deg) ;
+    width: 100%;
+}
+
+.duration-flex{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    width: 50%;
+}
+
+.volume-range{
+    filter:hue-rotate(25deg) ;
+    width: 30%;
+}
+
+.audio-btn{
+    cursor: pointer;
+}

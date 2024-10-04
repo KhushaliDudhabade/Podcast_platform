@@ -6,7 +6,7 @@ import LoginForm from '../Componenets/SighupComponent/LoginForm';
 function SignUp() {
     
     const [flag,setFlag]=useState(false);
-
+    console.log("Rendering SignUp component");
     
   return (
     <div>

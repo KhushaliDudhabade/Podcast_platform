@@ -5,6 +5,7 @@ import {auth} from './firebase';
 const PrivateRoutes=()=>{
     const [user, loading, error]=useAuthState(auth);
 
+    console.log("User in PrivateRoutes:", user);
     if(loading){
         return <p>Loading...</p>;
     }else if (!user || error){
